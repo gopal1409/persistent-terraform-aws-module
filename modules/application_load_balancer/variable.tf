@@ -1,5 +1,5 @@
 variable "tags_alb" {
-  type = map(list)
+  type = map(any)
 }
 
 variable "security_group" {
